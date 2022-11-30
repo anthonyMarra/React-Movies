@@ -20,6 +20,7 @@ function App() {
             <Route path="/movies/:movieName" element={<MovieDetailPage />} />
             <Route path="/actors" element={<ActorListPage />} />
           </Routes>
+
         </>
       ) : (
         <>

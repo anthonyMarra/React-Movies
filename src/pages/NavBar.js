@@ -1,18 +1,16 @@
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 function NavBar({ profile }) {
     return (
         <>
-            <a href="/actors">link text</a>
-
-            {/* <NavLink to="/">
+            <NavLink to="/">
                 <button>Movies</button>
             </NavLink>
             <NavLink to="/actors">
                 <button>Actors</button>
             </NavLink>
-            <p>Welcome, {profile}!</p> */}
+            <p>Welcome, {profile}!</p>
         </>
     );
 }
